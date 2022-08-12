@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/horoscopos",
+      "handler": "horoscopo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/horoscopos/count",
+      "handler": "horoscopo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/horoscopos/:id",
+      "handler": "horoscopo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/horoscopos",
+      "handler": "horoscopo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/horoscopos/:id",
+      "handler": "horoscopo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/horoscopos/:id",
+      "handler": "horoscopo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

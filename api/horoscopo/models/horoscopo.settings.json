@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "horoscopos",
+  "info": {
+    "name": "Horoscopo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "signo": {
+      "type": "string",
+      "required": true
+    },
+    "resultado": {
+      "type": "string"
+    },
+    "salud": {
+      "type": "integer",
+      "required": true
+    },
+    "dinero": {
+      "type": "integer",
+      "required": true
+    },
+    "trabajo": {
+      "type": "biginteger",
+      "required": true
+    },
+    "amor": {
+      "type": "integer",
+      "unique": false,
+      "required": true
+    }
+  }
+}

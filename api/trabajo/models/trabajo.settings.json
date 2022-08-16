@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trabajos",
+  "info": {
+    "name": "trabajo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
